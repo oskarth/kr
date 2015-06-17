@@ -6,6 +6,6 @@ quickly. For example, in the very beginning:
 strlen
 wc
 strcpy
-qsort
+swap
 
 There's also some notes in-file for these elementary programs.
