@@ -17,8 +17,8 @@ static char (*syscall_names[]) = {
   [SYS_exit] = "exit"
 };
 
-
 int main() {
+  (void)syscalls;
+  (void)syscall_names;
   printf("hello\n");
-  printf("syscall: %s\n", syscall_names[SYS_fork]);
 }
